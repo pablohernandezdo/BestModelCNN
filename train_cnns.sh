@@ -722,25 +722,25 @@ python train.py \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy"
 
-#P1=$!
-#
-#echo "Training model CNN_4k_1k, lr = 1e-4, epochs = 20, batch_size = 256"
-#python train.py \
-#        --lr 1e-4 \
-#        --epochs 20 \
-#        --batch_size 256 \
-#        --earlystop 0 \
-#        --eval_iter 1 \
-#        --model_folder 'models'  \
-#        --classifier CNN_4k_1k \
-#        --model_name CNN_4k_1k_1e4_256 \
-#        --dataset_name "STEAD-ZEROS" \
-#        --train_path "Data/TrainReady/Train_constant.npy" \
-#        --val_path "Data/TrainReady/Val_constant.npy"
-#
-#P2=$!
-#wait $P1 $P2
-#
+P1=$!
+
+echo "Training model CNN_4k_1k, lr = 1e-4, epochs = 20, batch_size = 256"
+python train.py \
+        --lr 1e-4 \
+        --epochs 20 \
+        --batch_size 256 \
+        --earlystop 0 \
+        --eval_iter 1 \
+        --model_folder 'models'  \
+        --classifier CNN_4k_1k \
+        --model_name CNN_4k_1k_1e4_256 \
+        --dataset_name "STEAD-ZEROS" \
+        --train_path "Data/TrainReady/Train_constant.npy" \
+        --val_path "Data/TrainReady/Val_constant.npy"
+
+P2=$!
+wait $P1 $P2
+
 #echo "Training model CNN_4k_1k, lr = 1e-5, epochs = 20, batch_size = 256"
 #python train.py \
 #        --lr 1e-5 \
