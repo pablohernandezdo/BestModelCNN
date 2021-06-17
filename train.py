@@ -312,6 +312,7 @@ def count_parameters(model):
 
 
 def get_classifier(x):
+    print(x)
     if x == 'CNN1':
         return CNN1()
     elif x == 'CNN2':
