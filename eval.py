@@ -114,48 +114,57 @@ def evaluate_dataset(data_loader, dataset_name, device, net,
 
 
 def get_classifier(x):
-    if x == 'CNN_6k_6k':
-        return CNN_6k_6k()
-    elif x == 'CNN_6k_5k':
-        return CNN_6k_5k()
-    elif x == 'CNN_6k_4k':
-        return CNN_6k_4k()
-    elif x == 'CNN_6k_3k':
-        return CNN_6k_3k()
-    elif x == 'CNN_6k_2k':
-        return CNN_6k_2k()
-    elif x == 'CNN_6k_1k':
-        return CNN_6k_1k()
-    elif x == 'CNN_5k_5k':
-        return CNN_5k_5k()
-    elif x == 'CNN_5k_4k':
-        return CNN_5k_4k()
-    elif x == 'CNN_5k_3k':
-        return CNN_5k_3k()
-    elif x == 'CNN_5k_2k':
-        return CNN_5k_2k()
-    elif x == 'CNN_5k_1k':
-        return CNN_5k_1k()
-    elif x == 'CNN_4k_4k':
-        return CNN_4k_4k()
-    elif x == 'CNN_4k_3k':
-        return CNN_4k_3k()
-    elif x == 'CNN_4k_2k':
-        return CNN_4k_2k()
-    elif x == 'CNN_4k_1k':
-        return CNN_4k_1k()
-    elif x == 'CNN_3k_3k':
-        return CNN_3k_3k()
-    elif x == 'CNN_3k_2k':
-        return CNN_3k_2k()
-    elif x == 'CNN_3k_1k':
-        return CNN_3k_1k()
-    elif x == 'CNN_2k_2k':
-        return CNN_2k_2k()
-    elif x == 'CNN_2k_1k':
-        return CNN_2k_1k()
-    elif x == 'CNN_1k_1k':
-        return CNN_1k_1k()
+    if x == 'CNN1':
+        return CNN1()
+    elif x == 'CNN2':
+        return CNN2()
+    elif x == 'CNN3':
+        return CNN3()
+
+
+# def get_classifier(x):
+#     if x == 'CNN_6k_6k':
+#         return CNN_6k_6k()
+#     elif x == 'CNN_6k_5k':
+#         return CNN_6k_5k()
+#     elif x == 'CNN_6k_4k':
+#         return CNN_6k_4k()
+#     elif x == 'CNN_6k_3k':
+#         return CNN_6k_3k()
+#     elif x == 'CNN_6k_2k':
+#         return CNN_6k_2k()
+#     elif x == 'CNN_6k_1k':
+#         return CNN_6k_1k()
+#     elif x == 'CNN_5k_5k':
+#         return CNN_5k_5k()
+#     elif x == 'CNN_5k_4k':
+#         return CNN_5k_4k()
+#     elif x == 'CNN_5k_3k':
+#         return CNN_5k_3k()
+#     elif x == 'CNN_5k_2k':
+#         return CNN_5k_2k()
+#     elif x == 'CNN_5k_1k':
+#         return CNN_5k_1k()
+#     elif x == 'CNN_4k_4k':
+#         return CNN_4k_4k()
+#     elif x == 'CNN_4k_3k':
+#         return CNN_4k_3k()
+#     elif x == 'CNN_4k_2k':
+#         return CNN_4k_2k()
+#     elif x == 'CNN_4k_1k':
+#         return CNN_4k_1k()
+#     elif x == 'CNN_3k_3k':
+#         return CNN_3k_3k()
+#     elif x == 'CNN_3k_2k':
+#         return CNN_3k_2k()
+#     elif x == 'CNN_3k_1k':
+#         return CNN_3k_1k()
+#     elif x == 'CNN_2k_2k':
+#         return CNN_2k_2k()
+#     elif x == 'CNN_2k_1k':
+#         return CNN_2k_1k()
+#     elif x == 'CNN_1k_1k':
+#         return CNN_1k_1k()
 
 
 if __name__ == "__main__":
