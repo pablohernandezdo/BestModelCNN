@@ -265,15 +265,13 @@ def train_model(train_loader, dataset_name, val_loader, net, device, epochs,
     learning_curve_acc(tr_accuracies, val_accuracies,
                        f'Figures/Learning_curves/{dataset_name}/'
                        f'Accuracy/{model_dirname}',
-                       model_name,
-                       best_n_batches)
+                       model_name, best_n_batches[0])
 
     # Plot train and validation losses
     learning_curve_loss(tr_losses, val_losses,
                         f'Figures/Learning_curves/{dataset_name}/'
                         f'Loss/{model_dirname}',
-                        model_name,
-                        best_n_batches)
+                        model_name, best_n_batches[0])
 
     if not os.path.exists(model_folder):
         os.makedirs(model_folder, exist_ok=True)
