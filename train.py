@@ -228,7 +228,7 @@ def train_model(train_loader, dataset_name, val_loader, net, device, epochs,
                         early_counter += 1
 
                     # Early stopping
-                    if early_counter >= patience and epoch > 0 and earlystop:
+                    if early_counter >= patience and epoch >= 0 and earlystop:
                         break
 
                 epoch_bar.update()
