@@ -121,6 +121,8 @@ def get_classifier(x):
         return CNN2()
     elif x == 'CNN3':
         return CNN3()
+    elif x == 'CNN_4k_1k':
+        return CNN_4k_1k()
 
 
 # def get_classifier(x):
