@@ -250,13 +250,13 @@ def train_model(train_loader, dataset_name, val_loader, net, device, epochs,
     pd_val_loss = pd.DataFrame({'ValLoss': val_losses})
 
     best_n_batches = [best_n_batches] * len(tr_accuracies)
-    pd_train_batches = pd.DataFrame({'Train_batches': best_n_batches})
+    pd_n_batches = pd.DataFrame({'Train_batches': best_n_batches})
 
     pd_data = pd.concat([pd_train_acc,
                          pd_train_loss,
                          pd_val_acc,
                          pd_val_loss,
-                         pd_train_batches], axis=1)
+                         pd_n_batches], axis=1)
 
     pd_data.to_csv(f'LearningCurves/{dataset_name}/'
                    f'{model_name}.csv', index=False)
