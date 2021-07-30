@@ -432,48 +432,12 @@ def count_parameters(model):
 
 
 def get_classifier(x):
-    if x == 'ANN_6k_6k':
-        return ANN_6k_6k()
-    elif x == 'ANN_6k_5k':
-        return ANN_6k_5k()
-    elif x == 'ANN_6k_4k':
-        return ANN_6k_4k()
-    elif x == 'ANN_6k_3k':
-        return ANN_6k_3k()
-    elif x == 'ANN_6k_2k':
-        return ANN_6k_2k()
-    elif x == 'ANN_6k_1k':
-        return ANN_6k_1k()
-    elif x == 'ANN_5k_5k':
-        return ANN_5k_5k()
-    elif x == 'ANN_5k_4k':
-        return ANN_5k_4k()
-    elif x == 'ANN_5k_3k':
-        return ANN_5k_3k()
-    elif x == 'ANN_5k_2k':
-        return ANN_5k_2k()
-    elif x == 'ANN_5k_1k':
-        return ANN_5k_1k()
-    elif x == 'ANN_4k_4k':
-        return ANN_4k_4k()
-    elif x == 'ANN_4k_3k':
-        return ANN_4k_3k()
-    elif x == 'ANN_4k_2k':
-        return ANN_4k_2k()
-    elif x == 'ANN_4k_1k':
-        return ANN_4k_1k()
-    elif x == 'ANN_3k_3k':
-        return ANN_3k_3k()
-    elif x == 'ANN_3k_2k':
-        return ANN_3k_2k()
-    elif x == 'ANN_3k_1k':
-        return ANN_3k_1k()
-    elif x == 'ANN_2k_2k':
-        return ANN_2k_2k()
-    elif x == 'ANN_2k_1k':
-        return ANN_2k_1k()
-    elif x == 'ANN_1k_1k':
-        return ANN_1k_1k()
+    if x == 'CNN1':
+        return CNN1()
+    elif x == 'CNN2':
+        return CNN2()
+    elif x == 'CNN3':
+        return CNN3()
 
 
 if __name__ == "__main__":
