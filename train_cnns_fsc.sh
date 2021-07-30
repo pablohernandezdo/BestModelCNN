@@ -10,7 +10,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN1 \
-        --model_name CNN1_1e3_256 \
+        --model_name CNN1_1e3_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -26,7 +26,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN1 \
-        --model_name CNN1_1e4_256 \
+        --model_name CNN1_1e4_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -42,7 +42,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN1 \
-        --model_name CNN1_1e5_256 \
+        --model_name CNN1_1e5_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy"
@@ -59,7 +59,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN2 \
-        --model_name CNN2_1e3_256 \
+        --model_name CNN2_1e3_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -75,7 +75,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN2 \
-        --model_name CNN2_1e4_256 \
+        --model_name CNN2_1e4_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -91,7 +91,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN2 \
-        --model_name CNN2_1e5_256 \
+        --model_name CNN2_1e5_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy"
@@ -108,7 +108,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN3 \
-        --model_name CNN3_1e3_256 \
+        --model_name CNN3_1e3_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -124,7 +124,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN3 \
-        --model_name CNN3_1e4_256 \
+        --model_name CNN3_1e4_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy" &
@@ -140,7 +140,7 @@ python train_fsc.py \
         --eval_iter 30 \
         --model_folder 'models'  \
         --classifier CNN3 \
-        --model_name CNN3_1e5_256 \
+        --model_name CNN3_1e5_256_fsc \
         --dataset_name "STEAD-ZEROS" \
         --train_path "Data/TrainReady/Train_constant.npy" \
         --val_path "Data/TrainReady/Val_constant.npy"
