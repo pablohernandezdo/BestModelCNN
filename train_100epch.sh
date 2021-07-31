@@ -4,7 +4,7 @@
 echo "Training model CNN, lr = 1e-3, epochs = 200, batch_size = 256"
 python train_fsc.py \
         --lr 1e-3 \
-        --device 3 \
+        --device 2 \
         --epochs 200 \
         --batch_size 256 \
         --earlystop 0 \
