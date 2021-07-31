@@ -25,7 +25,7 @@ def main():
                         help="Name of model to eval")
     parser.add_argument("--model_folder", default='models',
                         help="Model to eval folder")
-    parser.add_argument("--classifier", default='1h6k',
+    parser.add_argument("--classifier", default='CNN1',
                         help="Choose classifier architecture")
     parser.add_argument("--test_path", default='Test_data_v2.hdf5',
                         help="HDF5 test Dataset path")
